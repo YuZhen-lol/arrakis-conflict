@@ -4,6 +4,8 @@
 
 ## 使用
 
+[打开 GitHub Pages 战斗牌桌](https://yuzhen-lol.github.io/arrakis-conflict-pages/) · [提交反馈](https://github.com/YuZhen-lol/arrakis-conflict-pages/issues/new)
+
 下载 [Arrakis-Table.html](Arrakis-Table.html)，用浏览器打开即可离线游玩。选择牌包和玩家人数，开始战局后逐轮揭牌、登记胜者。可在制牌页面保存自定义牌，在「管理」中分配牌包或导出单张卡牌 JSON。战局和自制牌保存在当前浏览器。
 
 ## 源码
