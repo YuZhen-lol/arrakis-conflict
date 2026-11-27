@@ -25,20 +25,6 @@ function toast(message){
 function packOf(card){return card.pack||"base"}
 function packName(id){return id==="base"?"起义初始牌包":id==="myth"?"沙海异闻":"自定义牌包 "+id.slice(2)}
 function allCards(){return [...BASE_CARDS,...EXPANSION_CARDS,...state.custom]}
-function skin(c){return packOf(c).startsWith("c-")?"custom":packOf(c)}
-function rewardChip(item){
- const txt=item.text?(item.text+(item.qty>1?" ×"+item.qty:"")):`${LABELS[item.type]||"效果"} ×${item.qty??1}`;
- return `<span class="reward ${esc(item.type)}" title="${esc(LABELS[item.type])}">${icon(item.type,17)}${esc(txt)}</span>`
-}
-function cardFace(card,n){
- const rule=CORNER_RULES[card.corner];
- return `<article class="battle-card ${skin(card)}"><div class="card-art"><div class="card-top"><span>冲突 ${rom[card.tier]}</span>${rule?`<span title="${esc(rule.text)}">${icon(card.corner,17)} ${rule.name}</span>`:""}</div><div><small>${esc(card.en||packName(packOf(card)))}</small><h3>${esc(card.name||"未命名冲突")}</h3></div></div>
- <div class="rewards">${ranks.map((rank,i)=>`<div class="rankrow"><b class="rank">${rankNames[i]}</b><div class="reward-group">${card[rank].map(rewardChip).join("")||"无奖励"}</div></div>`).join("")}</div>
- ${rule?`<p class="card-note"><b>${rule.name}</b>　${esc(rule.text)}</p>`:""}
- ${card.note?`<p class="card-note">${esc(card.note)}</p>`:""}
- ${n===3?`<p class="card-note muted">${card.thirdInThree?"本牌三人局也发第三档。":"三人局仅在并列第二时发第三档。"}</p>`:""}
- <div class="card-bottom"><span>${icon(card.battle,17)}${esc(BATTLES[card.battle])}</span><span>${icon("worm",17)}${card.noWorm?"本场禁用沙虫":card.location?"护盾墙在场时禁虫":"可召唤沙虫"}</span></div></article>`
-}
 function modal(title,html){
  $("#dialog-content").innerHTML=`<div class="modal-head"><h2 id="modal-title">${esc(title)}</h2><button class="close" data-action="close" aria-label="关闭">${icon("close")}</button></div>${html}`;
  dialog.setAttribute("aria-labelledby","modal-title");if(!dialog.open)dialog.showModal();dialog.scrollTop=0
@@ -140,5 +126,11 @@ window.addEventListener("storage",event=>{
  if(dialog.open)dialog.close();
  render();
 });
-window.addEventListener("DOMContentLoaded",render);
+window.addEventListener("DOMContentLoaded",()=>{
+ const cardId=new URLSearchParams(location.search).get("card");
+ const linkedCard=cardId&&location.hash==="#manage"&&allCards().find(c=>c.id===cardId);
+ if(linkedCard)managerTab=packOf(linkedCard).startsWith("c-")?"custom":packOf(linkedCard);
+ render();
+ if(linkedCard)inspectCard(linkedCard.id);
+});
 
