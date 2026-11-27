@@ -1,5 +1,6 @@
 // Shared line icon catalogue used in navigation, reward rows and the card editor.
 const paths = {
+  feedback:'<path d="M4 4h16a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1h-9l-6 4v-4H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/><path d="M7 9h10m-10 4h6"/>',
   sun:'<circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/>',
   swords:'<path d="m3 3 5 2 11 12-2 2L5 8zM21 3l-5 2-4 5m-2 3-5 5m2 2 5-5M3 16l5 5m8-1 5-5M3 21l2-2m14 0 2 2"/>',
   layers:'<path d="m12 3 9 5-9 5-9-5zM3 12l9 5 9-5M3 16l9 5 9-5"/>',

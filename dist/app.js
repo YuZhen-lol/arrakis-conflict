@@ -119,6 +119,9 @@ const actions={
 document.addEventListener("click",e=>{const b=e.target.closest("[data-action]");if(b&&!b.disabled)actions[b.dataset.action]?.(b.dataset.id,b)});
 window.addEventListener("hashchange",()=>{if(dialog.open)dialog.close();render();window.scrollTo(0,0)});
 $("#rules").onclick=openRules;
+$("#feedback").onclick=()=>modal("反馈",`
+ <div class="feedback-copy"><p>测试内容，数值会继续调整</p><p>联系作者：1244134683（QQ）</p></div>
+ <div class="actions"><a class="primary feedback-submit" href="https://github.com/YuZhen-lol/arrakis-conflict-pages/issues/new" target="_blank" rel="noopener noreferrer">提交反馈</a></div>`);
 document.querySelectorAll("[data-icon]").forEach(i=>i.innerHTML=icon(i.dataset.icon));
 window.addEventListener("storage",event=>{
  if(event.key!=="arrakis-table-v1")return;
