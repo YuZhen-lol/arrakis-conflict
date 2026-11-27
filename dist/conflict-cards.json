@@ -1,0 +1,1124 @@
+{
+  "version": 1,
+  "packs": {
+    "base": [
+      {
+        "id": "uprising-451",
+        "name": "小规模冲突 · 晶牙匕",
+        "en": "Skirmish (Crysknife)",
+        "tier": 1,
+        "battle": "blade",
+        "corner": null,
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "influence",
+            "qty": 1,
+            "text": "任一派系影响力 +1"
+          }
+        ],
+        "second": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          },
+          {
+            "type": "spice",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "spice",
+            "qty": 1
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/451/uprising-skirmish-crysknife"
+      },
+      {
+        "id": "uprising-452",
+        "name": "小规模冲突 · 扑翼机",
+        "en": "Skirmish (Ornithopter)",
+        "tier": 1,
+        "battle": "thopter",
+        "corner": null,
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          },
+          {
+            "type": "solari",
+            "qty": 1
+          }
+        ],
+        "second": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          },
+          {
+            "type": "solari",
+            "qty": 2
+          }
+        ],
+        "third": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/452/uprising-skirmish-ornithopter"
+      },
+      {
+        "id": "uprising-453",
+        "name": "小规模冲突 · 沙漠鼠",
+        "en": "Skirmish (Desert Mouse)",
+        "tier": 1,
+        "battle": "mouse",
+        "corner": null,
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "solari",
+            "qty": 2
+          }
+        ],
+        "second": [
+          {
+            "type": "solari",
+            "qty": 3
+          }
+        ],
+        "third": [
+          {
+            "type": "solari",
+            "qty": 2
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/453/uprising-skirmish-desert-mouse"
+      },
+      {
+        "id": "uprising-454",
+        "name": "联合商会安保",
+        "en": "CHOAM Security",
+        "tier": 2,
+        "battle": "blade",
+        "corner": null,
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "influence",
+            "qty": 1,
+            "text": "宇航公会影响力 +1"
+          },
+          {
+            "type": "contract",
+            "qty": 1
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "second": [
+          {
+            "type": "water",
+            "qty": 1
+          },
+          {
+            "type": "solari",
+            "qty": 2
+          },
+          {
+            "type": "troop",
+            "qty": 2
+          }
+        ],
+        "third": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/454/uprising-choam-security"
+      },
+      {
+        "id": "uprising-455",
+        "name": "香料货船",
+        "en": "Spice Freighters",
+        "tier": 2,
+        "battle": "blade",
+        "corner": null,
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "influence",
+            "qty": 1,
+            "text": "任一派系影响力 +1"
+          },
+          {
+            "type": "trade",
+            "qty": 1,
+            "text": "可付 3 香料换 1 胜利点"
+          }
+        ],
+        "second": [
+          {
+            "type": "water",
+            "qty": 1
+          },
+          {
+            "type": "spice",
+            "qty": 1
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "spice",
+            "qty": 1
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/455/uprising-spice-freighters"
+      },
+      {
+        "id": "uprising-456",
+        "name": "围攻厄拉科恩",
+        "en": "Siege of Arrakeen",
+        "tier": 2,
+        "battle": "thopter",
+        "corner": null,
+        "noWorm": false,
+        "location": "arrakeen",
+        "first": [
+          {
+            "type": "control",
+            "qty": 1,
+            "text": "控制厄拉科恩"
+          },
+          {
+            "type": "solari",
+            "qty": 2
+          },
+          {
+            "type": "troop",
+            "qty": 2
+          }
+        ],
+        "second": [
+          {
+            "type": "solari",
+            "qty": 4
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "solari",
+            "qty": 3
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/456/uprising-siege-of-arrakeen"
+      },
+      {
+        "id": "uprising-457",
+        "name": "夺取香料精炼厂",
+        "en": "Seize Spice Refinery",
+        "tier": 2,
+        "battle": "blade",
+        "corner": null,
+        "noWorm": false,
+        "location": "refinery",
+        "first": [
+          {
+            "type": "control",
+            "qty": 1,
+            "text": "控制香料精炼厂"
+          },
+          {
+            "type": "spy",
+            "qty": 1
+          },
+          {
+            "type": "spice",
+            "qty": 2
+          }
+        ],
+        "second": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          },
+          {
+            "type": "spice",
+            "qty": 1
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "spice",
+            "qty": 2
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/457/uprising-seize-spice-refinery"
+      },
+      {
+        "id": "uprising-458",
+        "name": "忠诚考验",
+        "en": "Test of Loyalty",
+        "tier": 2,
+        "battle": "thopter",
+        "corner": null,
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "influence",
+            "qty": 1,
+            "text": "皇帝影响力 +1"
+          },
+          {
+            "type": "spy",
+            "qty": 1
+          },
+          {
+            "type": "solari",
+            "qty": 2
+          }
+        ],
+        "second": [
+          {
+            "type": "solari",
+            "qty": 4
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "solari",
+            "qty": 3
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/458/uprising-test-of-loyalty"
+      },
+      {
+        "id": "uprising-459",
+        "name": "暗影角逐",
+        "en": "Shadow Contest",
+        "tier": 2,
+        "battle": "thopter",
+        "corner": null,
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "influence",
+            "qty": 1,
+            "text": "贝尼·杰瑟里特影响力 +1"
+          },
+          {
+            "type": "intrigue",
+            "qty": 1
+          }
+        ],
+        "second": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          },
+          {
+            "type": "spice",
+            "qty": 1
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "spice",
+            "qty": 1
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/459/uprising-shadow-contest"
+      },
+      {
+        "id": "uprising-460",
+        "name": "保卫帝国盆地",
+        "en": "Secure Imperial Basin",
+        "tier": 2,
+        "battle": "mouse",
+        "corner": null,
+        "noWorm": false,
+        "location": "basin",
+        "first": [
+          {
+            "type": "control",
+            "qty": 1,
+            "text": "控制帝国盆地"
+          },
+          {
+            "type": "spice",
+            "qty": 2
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "second": [
+          {
+            "type": "water",
+            "qty": 2
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "water",
+            "qty": 1
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/460/uprising-secure-imperial-basin"
+      },
+      {
+        "id": "uprising-461",
+        "name": "保卫穴地",
+        "en": "Protect the Sietches",
+        "tier": 2,
+        "battle": "mouse",
+        "corner": null,
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "influence",
+            "qty": 1,
+            "text": "弗雷曼人影响力 +1"
+          },
+          {
+            "type": "water",
+            "qty": 1
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "second": [
+          {
+            "type": "spice",
+            "qty": 3
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "spice",
+            "qty": 2
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/461/uprising-protect-the-sietches"
+      },
+      {
+        "id": "uprising-462",
+        "name": "贸易争端",
+        "en": "Trade Dispute",
+        "tier": 2,
+        "battle": "mouse",
+        "corner": null,
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "contract",
+            "qty": 1
+          },
+          {
+            "type": "water",
+            "qty": 1
+          },
+          {
+            "type": "trash",
+            "qty": 1
+          }
+        ],
+        "second": [
+          {
+            "type": "water",
+            "qty": 1
+          },
+          {
+            "type": "spice",
+            "qty": 1
+          },
+          {
+            "type": "trash",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "water",
+            "qty": 1
+          },
+          {
+            "type": "troop",
+            "qty": 1
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/462/uprising-trade-dispute"
+      },
+      {
+        "id": "uprising-463",
+        "name": "宣传攻势",
+        "en": "Propaganda",
+        "tier": 3,
+        "battle": "wild",
+        "corner": null,
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "influence",
+            "qty": 1,
+            "text": "选两个不同派系，各 +1 影响力"
+          }
+        ],
+        "second": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          },
+          {
+            "type": "spice",
+            "qty": 3
+          }
+        ],
+        "third": [
+          {
+            "type": "spice",
+            "qty": 3
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/463/uprising-propaganda"
+      },
+      {
+        "id": "uprising-464",
+        "name": "帝国盆地之战",
+        "en": "Battle for Imperial Basin",
+        "tier": 3,
+        "battle": "thopter",
+        "corner": null,
+        "noWorm": false,
+        "location": "basin",
+        "first": [
+          {
+            "type": "vp",
+            "qty": 1
+          },
+          {
+            "type": "control",
+            "qty": 1,
+            "text": "控制帝国盆地"
+          },
+          {
+            "type": "trade",
+            "qty": 1,
+            "text": "可付 4 香料换 1 胜利点"
+          }
+        ],
+        "second": [
+          {
+            "type": "spice",
+            "qty": 5
+          }
+        ],
+        "third": [
+          {
+            "type": "spice",
+            "qty": 3
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/464/uprising-battle-for-imperial-basin"
+      },
+      {
+        "id": "uprising-465",
+        "name": "厄拉科恩之战",
+        "en": "Battle for Arrakeen",
+        "tier": 3,
+        "battle": "blade",
+        "corner": null,
+        "noWorm": false,
+        "location": "arrakeen",
+        "first": [
+          {
+            "type": "vp",
+            "qty": 1
+          },
+          {
+            "type": "control",
+            "qty": 1,
+            "text": "控制厄拉科恩"
+          },
+          {
+            "type": "trade",
+            "qty": 1,
+            "text": "可召回 2 名间谍换 1 胜利点"
+          }
+        ],
+        "second": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          },
+          {
+            "type": "spice",
+            "qty": 1
+          },
+          {
+            "type": "solari",
+            "qty": 3
+          }
+        ],
+        "third": [
+          {
+            "type": "spice",
+            "qty": 2
+          },
+          {
+            "type": "solari",
+            "qty": 2
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/465/uprising-battle-for-arrakeen"
+      },
+      {
+        "id": "uprising-466",
+        "name": "香料精炼厂之战",
+        "en": "Battle for Spice Refinery",
+        "tier": 3,
+        "battle": "mouse",
+        "corner": null,
+        "noWorm": false,
+        "location": "refinery",
+        "first": [
+          {
+            "type": "vp",
+            "qty": 1
+          },
+          {
+            "type": "control",
+            "qty": 1,
+            "text": "控制香料精炼厂"
+          },
+          {
+            "type": "trade",
+            "qty": 1,
+            "text": "可付 6 帝国索换 1 胜利点"
+          }
+        ],
+        "second": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          },
+          {
+            "type": "spice",
+            "qty": 3
+          }
+        ],
+        "third": [
+          {
+            "type": "spice",
+            "qty": 3
+          }
+        ],
+        "source": "https://dunecardshub.com/cards/466/uprising-battle-for-spice-refinery"
+      }
+    ],
+    "expansion": [
+      {
+        "id": "myth-last",
+        "name": "末席盛宴",
+        "en": "The Last Banquet",
+        "tier": 1,
+        "battle": "mouse",
+        "corner": null,
+        "noWorm": true,
+        "location": null,
+        "first": [
+          {
+            "type": "solari",
+            "qty": 1
+          }
+        ],
+        "second": [
+          {
+            "type": "spice",
+            "qty": 2
+          }
+        ],
+        "third": [
+          {
+            "type": "vp",
+            "qty": 1
+          }
+        ],
+        "note": "本牌特例：三人局也发第三档。仅战力大于 0 者有资格领奖。并列照常降档。唯一胜者仍拿牌并检查图标。",
+        "pack": "myth",
+        "thirdInThree": true
+      },
+      {
+        "id": "myth-courier",
+        "name": "失踪的信使",
+        "en": "The Lost Courier",
+        "tier": 1,
+        "battle": "thopter",
+        "corner": "lookout",
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          },
+          {
+            "type": "spy",
+            "qty": 1
+          }
+        ],
+        "second": [
+          {
+            "type": "water",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "solari",
+            "qty": 2
+          }
+        ],
+        "note": "",
+        "pack": "myth"
+      },
+      {
+        "id": "myth-ransom",
+        "name": "香料赎金",
+        "en": "A Price in Spice",
+        "tier": 2,
+        "battle": "blade",
+        "corner": "bidding",
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "vp",
+            "qty": 1
+          },
+          {
+            "type": "solari",
+            "qty": 2
+          }
+        ],
+        "second": [
+          {
+            "type": "spice",
+            "qty": 2
+          }
+        ],
+        "third": [
+          {
+            "type": "water",
+            "qty": 1
+          }
+        ],
+        "note": "",
+        "pack": "myth"
+      },
+      {
+        "id": "myth-split",
+        "name": "双封遗嘱",
+        "en": "The Divided Bequest",
+        "tier": 2,
+        "battle": "mouse",
+        "corner": null,
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "choice",
+            "qty": 1,
+            "text": "先选一封遗嘱"
+          }
+        ],
+        "second": [
+          {
+            "type": "remainder",
+            "qty": 1,
+            "text": "领取余下的一封"
+          }
+        ],
+        "third": [
+          {
+            "type": "troop",
+            "qty": 2
+          }
+        ],
+        "note": "金封为 1 胜利点，蓝封为 2 水和 1 阴谋。唯一胜者先选一封，独占第二档者得另一封。并列第一时每人改领 2 香料。并列第二照常领第三档。沙虫仅翻倍所得封内物资或分数。",
+        "pack": "myth"
+      },
+      {
+        "id": "myth-purge",
+        "name": "静默哨站",
+        "en": "Silent Outposts",
+        "tier": 2,
+        "battle": "thopter",
+        "corner": "retreat",
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "purge",
+            "qty": 1,
+            "text": "撤回所有对手的间谍"
+          }
+        ],
+        "second": [
+          {
+            "type": "spy",
+            "qty": 1
+          },
+          {
+            "type": "intrigue",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "spice",
+            "qty": 1
+          }
+        ],
+        "note": "先将所有对手在观察站的间谍送回各自供应区，无召回收益。再按名次部署奖励间谍。清场只执行一次。",
+        "pack": "myth"
+      },
+      {
+        "id": "myth-cargo",
+        "name": "弃舱协议",
+        "en": "Jettison Protocol",
+        "tier": 2,
+        "battle": "thopter",
+        "corner": "reserves",
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "vp",
+            "qty": 1
+          },
+          {
+            "type": "trade",
+            "qty": 1,
+            "text": "可弃 1 水换 3 香料"
+          }
+        ],
+        "second": [
+          {
+            "type": "water",
+            "qty": 2
+          }
+        ],
+        "third": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          }
+        ],
+        "note": "",
+        "pack": "myth"
+      },
+      {
+        "id": "myth-well",
+        "name": "隐井分水",
+        "en": "The Hidden Cistern",
+        "tier": 2,
+        "battle": "mouse",
+        "corner": "waterpact",
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "water",
+            "qty": 3
+          }
+        ],
+        "second": [
+          {
+            "type": "influence",
+            "qty": 1
+          },
+          {
+            "type": "water",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "troop",
+            "qty": 2
+          }
+        ],
+        "note": "",
+        "pack": "myth"
+      },
+      {
+        "id": "myth-mask",
+        "name": "假面拍卖",
+        "en": "The Masked Auction",
+        "tier": 2,
+        "battle": "blade",
+        "corner": "bidding",
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "choice",
+            "qty": 1,
+            "text": "1 胜利点 或 2 阴谋"
+          }
+        ],
+        "second": [
+          {
+            "type": "solari",
+            "qty": 4
+          }
+        ],
+        "third": [
+          {
+            "type": "spy",
+            "qty": 1
+          }
+        ],
+        "note": "有沙虫时先选一次，再将所选奖励翻倍。",
+        "pack": "myth"
+      },
+      {
+        "id": "myth-cities",
+        "name": "三地易帜",
+        "en": "Three Banners",
+        "tier": 3,
+        "battle": "thopter",
+        "corner": null,
+        "noWorm": true,
+        "location": null,
+        "first": [
+          {
+            "type": "cities",
+            "qty": 1,
+            "text": "接管三处关键地点"
+          }
+        ],
+        "second": [
+          {
+            "type": "vp",
+            "qty": 1
+          },
+          {
+            "type": "spice",
+            "qty": 2
+          }
+        ],
+        "third": [
+          {
+            "type": "intrigue",
+            "qty": 1
+          },
+          {
+            "type": "water",
+            "qty": 1
+          }
+        ],
+        "note": "唯一胜者同时控制厄拉科恩、香料精炼厂及帝国盆地。替换对手标记，已控制的地点保留。此次转移不触发防守部署或控制加成。",
+        "pack": "myth"
+      },
+      {
+        "id": "myth-echo",
+        "name": "归队的幽灵",
+        "en": "Ghosts of the Garrison",
+        "tier": 3,
+        "battle": "blade",
+        "corner": "retreat",
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "vp",
+            "qty": 2
+          }
+        ],
+        "second": [
+          {
+            "type": "influence",
+            "qty": 1
+          },
+          {
+            "type": "troop",
+            "qty": 3
+          }
+        ],
+        "third": [
+          {
+            "type": "spice",
+            "qty": 2
+          }
+        ],
+        "note": "",
+        "pack": "myth"
+      },
+      {
+        "id": "myth-tithe",
+        "name": "露水什一税",
+        "en": "The Dew Tithe",
+        "tier": 3,
+        "battle": "mouse",
+        "corner": "waterpact",
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "vp",
+            "qty": 1
+          },
+          {
+            "type": "trade",
+            "qty": 1,
+            "text": "可付 2 水换 1 胜利点"
+          }
+        ],
+        "second": [
+          {
+            "type": "water",
+            "qty": 2
+          },
+          {
+            "type": "intrigue",
+            "qty": 1
+          }
+        ],
+        "third": [
+          {
+            "type": "influence",
+            "qty": 1
+          }
+        ],
+        "note": "",
+        "pack": "myth"
+      },
+      {
+        "id": "myth-eyes",
+        "name": "沙海千眼",
+        "en": "Eyes of the Erg",
+        "tier": 3,
+        "battle": "thopter",
+        "corner": "lookout",
+        "noWorm": false,
+        "location": null,
+        "first": [
+          {
+            "type": "vp",
+            "qty": 1
+          },
+          {
+            "type": "intrigue",
+            "qty": 2
+          }
+        ],
+        "second": [
+          {
+            "type": "spy",
+            "qty": 2
+          },
+          {
+            "type": "spice",
+            "qty": 2
+          }
+        ],
+        "third": [
+          {
+            "type": "water",
+            "qty": 2
+          }
+        ],
+        "note": "",
+        "pack": "myth"
+      }
+    ]
+  },
+  "cornerRules": {
+    "retreat": {
+      "name": "有序撤离",
+      "text": "战斗奖励发完后，各家将自己仍在冲突区的部队的一半（向下取整）放回驻军，其余照常回供应区。沙虫照常归还。"
+    },
+    "bidding": {
+      "name": "香料悬赏",
+      "text": "打出战斗阴谋牌前，所有有单位参战的玩家同时暗握 0 至 2 个香料并揭示。每支付 1 香料，本场 +2 战力。随后照常进行战斗。"
+    },
+    "lookout": {
+      "name": "前哨信号",
+      "text": "进入战斗阶段时，从起始玩家起顺时针，每位有单位参战的玩家可召回自己的 1 名间谍，本场 +3 战力。每人限一次。"
+    },
+    "reserves": {
+      "name": "最后援军",
+      "text": "打出战斗阴谋牌前，记录此刻所有战力大于 0 的玩家。仅其中战力最低者（含并列）可从驻军增派 1 支部队，各人同时决定。至少须有两人参战。"
+    },
+    "waterpact": {
+      "name": "水之盟约",
+      "text": "发完奖励后，若至少两人战力大于 0，其中战力最高者（含并列）可各向一名参战对手赠送自己的 1 水，以获得 1 点任意派系影响力。由起始玩家顺时针各执行至多一次。"
+    }
+  }
+}
